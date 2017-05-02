@@ -1,0 +1,88 @@
+body, div, p, a, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, STHeiTi, sans-serif;
+}
+
+.content {
+    position: relative;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content-download {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    text-align: center;
+}
+
+.content-download a {
+    display: block;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 33px;
+    border-radius: 17px;
+    color: #fff;
+    font-size: 15px;
+    background: #EA3D1C;
+}
+
+.content-download a:active {
+    background: #dd2e0d;
+}
+
+.content-download a:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+}
+
+.content-download .load-Android:before {
+    vertical-align: text-bottom;
+    margin-right: 6px;
+    background: url("../image/android.png") no-repeat;
+    background-size: 15px 17px;
+}
+
+.content-download .load-iPhone:before {
+    margin-right: 6px;
+    vertical-align: text-bottom;
+    background: url("../image/ios.png") no-repeat;
+    background-size: 15px 17px;
+}
+
+.content-download .load-iPhone {
+    position: absolute;
+    top: 0;
+}
+
+.version {
+    margin-top: 10px;
+    font-size: 11px;
+    line-height: 11px;
+    color: #CCC;
+}
+
+.version span {
+    margin-left: 4px;
+    margin-right: 14px;
+}
+
+.version span:last-child {
+    margin-right: 0;
+}
+
+.footer {
+    text-align: center;
+    line-height: 55px;
+    font-size: 13px;
+    background: #fff;
+    color: #7d7d7d;
+}

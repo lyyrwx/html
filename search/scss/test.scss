@@ -1,0 +1,30 @@
+$font:16px;
+$color:#ddd;
+@mixin large {
+  width:100px;
+  height:100px;
+}
+%block {
+
+}
+.navbar01 {
+  @include large;
+  border: 1px solid #222;
+  font-size:$font;
+  color: $color;
+  .sub {
+    height:30px;
+    background: #8B9CE5;
+    a {
+      text-decoration: none;
+      margin:5px;
+      padding: 10px;
+    }
+  }
+}
+.navbar02 {
+  @include large;
+}
+.navbar03 {
+  @include large;
+}

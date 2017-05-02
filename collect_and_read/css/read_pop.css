@@ -1,0 +1,139 @@
+
+body, div a, h4, p, span, em, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.readPop {
+    width: 325px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    overflow: hidden;
+    font-family: 'Helvetica Neue', Helvetica, STHeiTi, sans-serif;
+    background: url("../image/rea_bg.png") no-repeat;
+    background-size: 325px 455px;
+}
+
+.readPop-leader {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.readPop-leader-leapfrog {
+    position: absolute;
+    right: 0;
+    margin-top: 11px;
+    display: block;
+    line-height: 22px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 11px;
+    background: rgba(51, 51, 51, 0.46);
+    border-radius: 11px 0 0 11px;
+}
+
+.readPop-leader-leapfrog span {
+    margin-left: 3px;
+}
+
+.readPop-leader-name {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    white-space: nowrap;
+    color: #fff;
+    font-weight: normal;
+}
+
+.readPop-leader-photo {
+    margin: 0 auto;
+    width: 123px;
+    height: 140px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px 1px rgba(100, 100, 100, 0.6);
+}
+
+.readPop-leader-photo img {
+    width: 100%;
+
+}
+
+.readPop-leader-tips {
+    padding-top: 15px;
+    padding-bottom: 16px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.readPop-code {
+    padding: 21px 0 6px 0;
+    background: #fff;
+}
+
+.readPop-code-img {
+    margin: 0 auto;
+    width: 99px;
+    height: 99px;
+    overflow: hidden;
+
+}
+
+.readPop-code-img img {
+    width: 99px;
+    height: 99px;
+}
+
+.readPop-code-content {
+    margin-top: 10px;
+    margin-bottom: 11px;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 58px;
+    color: #666;
+    text-align: center;
+}
+
+.readPop-code-content em {
+    font-style: normal;
+    color: #EE5048;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

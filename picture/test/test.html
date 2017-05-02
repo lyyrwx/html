@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            position:relative;
+            left:50px;
+            top:50px;
+            margin:10px;
+            width:200px;
+            height:100px;
+            border:1px solid #E3581D;
+        }
+        span {
+            position:absolute;
+            padding:5px;
+            border-style: solid;
+            border-color: #E3581D;
+        }
+        .row1 {
+            border-width: 5px 0 0 5px;
+            top:-5px;
+            left:-5px;
+        }
+        .row2 {
+            border-width: 5px 5px 0 0;
+            top:-5px;
+            right:-5px;
+        }
+        .col1 {
+            border-width: 0 0 5px 5px;
+            bottom:-5px;
+            left:-5px;
+        }
+        .col2 {
+            border-width: 0 5px 5px 0;
+            bottom:-5px;
+            right:-5px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span class="row1"></span>
+    <span class="row2"></span>
+    <span class="col2"></span>
+    <span class="col1"></span>
+</div>
+
+</body>
+</html>

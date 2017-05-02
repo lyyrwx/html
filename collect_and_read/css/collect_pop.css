@@ -1,0 +1,152 @@
+
+body, div, p, a, span, em, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.collectPop {
+    width: 324px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    overflow: hidden;
+    -webkit-mask-image: url("../image/collect_mask.png");
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    font-family: 'Helvetica Neue', Helvetica, STHeiTi, sans-serif;
+}
+
+.collectPop-book {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.collectPop-bg {
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: -1;
+}
+.collectPop-bg-img {
+    position: absolute;
+    width: 594px;
+    height: 792px;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    top: -260px;
+    left: -150px;
+}
+
+.collectPop-book-leapfrog {
+    position: absolute;
+    right: 0;
+    margin-top: 11px;
+    display: block;
+    line-height: 22px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 11px;
+    background: rgba(51, 51, 51, 0.46);
+    border-radius: 11px 0 0 11px;
+}
+
+.collectPop-book-leapfrog span {
+    margin-left: 3px;
+}
+
+.collectPop-book-tips {
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 22px;
+    font-size: 17px;
+    line-height: 17px;
+    white-space: nowrap;
+    color: #333;
+}
+
+.collectPop-book-cover {
+
+    margin: 0 auto;
+    width: 99px;
+    height: 132px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px 1px rgba(100, 100, 100, 0.6);
+}
+
+.collectPop-book-cover img {
+    width: 100%;
+}
+
+.collectPop-book-name {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 15px;
+    color: #666;
+}
+
+.collectPop-code {
+    padding: 11px 0 6px 0;
+    background: #fff;
+}
+
+.collectPop-code-img {
+    margin: 0 auto;
+    width: 99px;
+    height: 99px;
+    overflow: hidden;
+
+}
+
+.collectPop-code-img img {
+    width: 100%;
+}
+
+.collectPop-code-content {
+    margin-top: 8px;
+    margin-bottom: 11px;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 0 58px;
+    color: #666;
+    text-align: center;
+}
+
+.collectPop-code-content em {
+    font-style: normal;
+    color: #EE5048;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
