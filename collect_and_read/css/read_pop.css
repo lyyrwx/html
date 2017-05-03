@@ -10,7 +10,7 @@ body {
 
 .readPop {
     width: 325px;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -92,7 +92,6 @@ body {
     width: 99px;
     height: 99px;
     overflow: hidden;
-
 }
 
 .readPop-code-img img {
@@ -113,6 +112,14 @@ body {
 .readPop-code-content em {
     font-style: normal;
     color: #EE5048;
+}
+.overlay {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 

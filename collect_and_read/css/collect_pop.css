@@ -4,13 +4,9 @@ body, div, p, a, span, em, img {
     padding: 0;
 }
 
-body {
-    background: rgba(0, 0, 0, 0.7);
-}
-
 .collectPop {
     width: 324px;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -24,6 +20,7 @@ body {
     -webkit-mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
     font-family: 'Helvetica Neue', Helvetica, STHeiTi, sans-serif;
+    z-index: 2;
 }
 
 .collectPop-book {
@@ -126,6 +123,14 @@ body {
 .collectPop-code-content em {
     font-style: normal;
     color: #EE5048;
+}
+.overlay {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 

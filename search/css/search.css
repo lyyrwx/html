@@ -70,13 +70,15 @@ li .link {
     margin-bottom: 15px;
 
 }
+
 .read-book:after {
     content: '';
     display: block;
-    height:0;
+    height: 0;
     clear: both;
     visibility: hidden;
 }
+
 .read-book .read-book-cover {
     width: 88px;
     height: 118px;
@@ -138,8 +140,8 @@ li .link {
     margin-top: 7px;
 }
 
- .read-list .line:before {
-     content: '';
+.read-list .line:before {
+    content: '';
     position: absolute;
     top: 20px;
     left: 3px;
@@ -178,10 +180,12 @@ li .link {
     z-index: 1;
     position: relative;
 }
+
 .read-list li:first-child {
     position: relative;
 }
-.read-list li:first-child span:before{
+
+.read-list li:first-child span:before {
     content: '';
     background: #fff;
     border: 1px solid #DDD;
@@ -214,11 +218,13 @@ li .link {
     line-height: 22px;
     color: #333;
 }
+
 .directory .directory-new {
     margin-top: 5px;
     position: relative;
     line-height: 23px;
 }
+
 .directory .directory-new-content {
     font-size: 13px;
     display: inline-block;
@@ -227,7 +233,7 @@ li .link {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width:265px;
+    width: 265px;
 }
 
 .directory .directory-new-content em {
@@ -297,11 +303,8 @@ li .link {
     right: 15px;
     width: 46px;
     height: 46px;
-    background: #DDD;
+    background: #DDD url("../image/top_arrow.png") no-repeat center center;
+    background-size: 18px 18px;
     overflow: hidden;
-}
-
-.top img {
-    width: 47px;
-    height: 47px;
+    border-radius: 24px;
 }
